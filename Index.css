@@ -1,6 +1,7 @@
 body{
     margin: 0;
     font-family: sans-serif;
+    font-size: 16px;
 }
 
 .content{
@@ -57,6 +58,20 @@ article a{
     float: left;
     height: 300px;
     width: 300px;
+}
+
+@media only screen and (max-width: 340px){
+    #img{
+    height: 200px;
+    width: 200px;
+    }
+}
+
+@media only screen and (max-width: 240px){
+    #img{
+    height: 100px;
+    width: 100px;
+    }
 }
 
 .group:before,
